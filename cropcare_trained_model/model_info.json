@@ -1,0 +1,34 @@
+{
+  "model_name": "TinyLlama-CropCare-Expert",
+  "base_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "domain": "Agricultural Crop Disease Diagnosis",
+  "fine_tuning_method": "LoRA (PEFT)",
+  "best_experiment": "Experiment 3 (Maximum Convergence)",
+  "selection_score": "61.5846",
+  "metrics": {
+    "test_loss": "1.0178",
+    "rouge1": "0.4883",
+    "rouge2": "0.2610",
+    "rougeL": "0.4735"
+  },
+  "all_experiments": [
+    {
+      "name": "Experiment 1 (Baseline)",
+      "test_loss": "1.0509",
+      "rougeL": "0.4567",
+      "selection_score": "58.8105"
+    },
+    {
+      "name": "Experiment 2 (Optimized)",
+      "test_loss": "1.1410",
+      "rougeL": "0.4200",
+      "selection_score": "52.4416"
+    },
+    {
+      "name": "Experiment 3 (Maximum Convergence)",
+      "test_loss": "1.0178",
+      "rougeL": "0.4735",
+      "selection_score": "61.5846"
+    }
+  ]
+}
