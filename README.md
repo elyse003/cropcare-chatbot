@@ -11,7 +11,7 @@
 
 **A domain-specific agricultural assistant fine-tuned with LoRA (PEFT) on crop disease QA data.**
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elyse003/cropcare-chatbot/blob/main/Final_summative-mltech1.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elyse003/cropcare-chatbot/blob/main/Final_summative-mltech1.ipynb)
 
 [ Model](https://huggingface.co/UyiringiyeMarie/cropcare-tinyllama) • 
 [ Experiments](https://huggingface.co/UyiringiyeMarie/cropcare-tinyllama-experiments)  • [ Demo Video](https://youtu.be/530rUouiqWI) • [ Cropcare Assistant Gradio UI](https://huggingface.co/spaces/UyiringiyeMarie/cropcare-chatbot)
