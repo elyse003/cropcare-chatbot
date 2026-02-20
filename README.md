@@ -8,10 +8,13 @@
 ![PEFT](https://img.shields.io/badge/PEFT-LoRA-green?style=for-the-badge)
 ![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=for-the-badge)
 
+
 **A domain-specific agricultural assistant fine-tuned with LoRA (PEFT) on crop disease QA data.**
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elyse003/cropcare-chatbot/blob/main/Final_summative-mltech1.ipynb)
+
 [ Model](https://huggingface.co/UyiringiyeMarie/cropcare-tinyllama) • 
-[ Experiments](https://huggingface.co/UyiringiyeMarie/cropcare-tinyllama-experiments)  • [ Demo Video](#)
+[ Experiments](https://huggingface.co/UyiringiyeMarie/cropcare-tinyllama-experiments)  • [ Demo Video](https://youtu.be/530rUouiqWI) • [ Cropcare Assistant Gradio UI](https://huggingface.co/spaces/UyiringiyeMarie/cropcare-chatbot)
 
 </div>
 
@@ -123,12 +126,12 @@ The model was fine-tuned using **3 experiments** with progressively optimized hy
 
 | Metric | Exp 1 (Baseline) | Exp 2 (Optimized) | Exp 3 (Max Conv) |
 |---|---|---|---|
-| **Training Loss** | 1.2224| 1.3949 | 1.1069 |
-| **Test Loss** | 1.0509 | 1.1410 | 1.0178 |
-| **ROUGE-1** | 0.4729 | 0.4370 | 0.4883 |
-| **ROUGE-2** | 0.2445 | 0.2174 | 0.2610 |
-| **ROUGE-L** | 0.4567 | 0.4200 | 0.4735 |
-| **BLEU** | 6.6765 | 5.7589 | 5.0784 |
+| **Training Loss** | 1.1466| 1.3180 | 1.0292 |
+| **Test Loss** | 1.0101 | 1.1047 | 0.9685|
+| **ROUGE-1** | 0.4962 | 0.4614 | 0.5250 |
+| **ROUGE-2** | 0.2634 | 0.2264 | 0.2978 |
+| **ROUGE-L** | 0.4836 | 0.4458 | 0.5109 |
+| **BLEU** | 6.4947 | 6.8473 | 7.1735 |
 
 
 
